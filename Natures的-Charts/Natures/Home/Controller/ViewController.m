@@ -614,6 +614,7 @@
         //开始切割22字节
         for(int i=0;i<historyString.length;i+=kCommandLength)
         {
+            #warning 是否会越界
             NSString *element = [historyString substringWithRange:NSMakeRange(i, 44)];
             //一条历史数据
             NSLog(@"解析的数据---%@", element); //feef016200001702091921458100e040000508a5fddffeef010f41adfddf-----------------蓝牙接收到的历史数据
@@ -641,7 +642,7 @@
                 //historyUpsModel.uuids = @"0000000001";//
 
                 NSLog(@"%@", historyUpsModel.createTime);
-                [uploadModels addObject:historyUpsModel];
+                if(historyUpsModel) [uploadModels addObject:historyUpsModel];
             }
         }
         
