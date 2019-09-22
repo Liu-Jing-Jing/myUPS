@@ -1,0 +1,79 @@
+//
+//  PrefixHeader.pch
+//  Natures
+//
+//  Created by 柏霖尹 on 2019/7/19.
+//  Copyright © 2019 com.sjty. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#ifdef __OBJC__
+#define COLOR_WITH_RGB(R,G,B,A) [UIColor colorWithRed:R/255.0 green:G/255.0 blue:B/255.0 alpha:A]
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "UIView+Extension.h"
+#import "Masonry.h"
+#import "UIImage+Extension.h"
+#import "NSString+attributeStringWithColor.h"
+#import "NSString+BlockExtension.h"
+#import "NSDate+Helper.h"
+#import "HttpTool.h"
+#define BFFontM @"BodyFriendM"
+#import "MBProgressHUD+MJ.h"
+#import "Singleton.h"
+#import "WPAlertControl.h"
+#import "UpsNetworkingTools.h"
+#import "NSArray+Extension.h"
+#import "ParserDataTool.h"
+typedef enum {
+    OutputWatt = 1,
+    BatteryV = 2,
+    TemperatureH = 3,
+    PowerUsed = 4,
+    Solar = 5,
+    Wind = 6,
+    AC = 7
+}HistoryType;
+// 1.判断是否为iOS8
+#define iOS8 ([[UIDevice currentDevice].systemVersion doubleValue] >= 8.0)
+
+// 2.获得RGB颜色
+#define LLColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+#define stringWithLiteral(literal) @#literal
+#define enumToString(literal) @#literal
+// 3.自定义Log
+#ifdef DEBUG
+#define NSStringLKV(comment) [NSString stringWithFormat:@"%@", comment]
+
+#define LLog(...) NSLog(__VA_ARGS__)
+#define LLogBOL(...) NSLog(__VA_ARGS__)
+#else
+#define NSStringLKV(comment) NSLocalizedString(comment, comment)
+#define LLog(...)
+#endif
+#endif
+
+
+#define kWeatherAPIBaseURL [NSURL URLWithString:@"https://api.openweathermap.org/data/2.5/"]
+#define kWeatherAPIKey @"b46573c5ad07d712b3d48f93a1282bcb"
+#define kKelvinToCelcius(x) x - 209.9//273.15
+#define kKelvinToFahrenheit(x) x * 9.0/5.0 - 344
+#define kWeatherIconURLString(x)  [NSString stringWithFormat:@"https://openweathermap.org/img/w/%@.png", x];
+
+// UPS应急电源的账号Key
+#define kCurrentSignupAccount @"kCurrentSignupCurrent"
+#define kCurrentSigup2 @"kCurrentSigup2"
+#define kAutoLogin @"autoLogin"   //登录的开关
+#define kSavePassword @"kSavePassword"//保存密码的开关
+#define kAccount @"kAccount"
+#define kPWD @"kPWD"
+#define kSessionID @"kSessionID"
+#define kSystemTestNotificationName @"SystemTestPushVCNotification"
+
+#define kThemeColor LLColor(44, 48, 60)
+#endif /* PrefixHeader_pch */

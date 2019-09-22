@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NSLoginViewController">
+            <connections>
+                <outlet property="facebookButton" destination="Po0-HF-YEM" id="shd-Wd-M9T"/>
+                <outlet property="loginButton" destination="1n0-Gj-Qtq" id="O9v-TI-xAw"/>
+                <outlet property="signupButton" destination="RxJ-S3-aJf" id="xJU-jv-4LY"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="loginandregister_select" translatesAutoresizingMaskIntoConstraints="NO" id="61k-qe-NTY">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Po0-HF-YEM">
+                    <rect key="frame" x="42.5" y="428" width="235" height="40"/>
+                    <color key="backgroundColor" red="0.32644400000572205" green="0.75944751501083374" blue="0.95085650682449341" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="235" id="3Sk-rO-cc8"/>
+                        <constraint firstAttribute="height" constant="40" id="Y7P-DD-uV5"/>
+                    </constraints>
+                    <state key="normal" title="Login with Facebook" image="loginandregister_facebook"/>
+                    <connections>
+                        <action selector="facebookLoginAction:" destination="-1" eventType="touchUpInside" id="tdL-Qa-7Uq"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1n0-Gj-Qtq">
+                    <rect key="frame" x="42.5" y="476" width="106" height="40"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <state key="normal">
+                        <color key="titleColor" red="0.32644400000000001" green="0.75944751499999996" blue="0.9508565068" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="loginButtonClicked:" destination="-1" eventType="touchUpInside" id="eUS-sg-hHt"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RxJ-S3-aJf">
+                    <rect key="frame" x="172" y="476" width="105.5" height="40"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <state key="normal">
+                        <color key="titleColor" red="0.32644400000000001" green="0.75944751499999996" blue="0.9508565068" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="signupAction:" destination="-1" eventType="touchUpInside" id="XyX-78-dTy"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Po0-HF-YEM" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="bottom" constant="-140" id="083-M1-JZ6"/>
+                <constraint firstItem="1n0-Gj-Qtq" firstAttribute="width" secondItem="Po0-HF-YEM" secondAttribute="width" multiplier="0.45" id="HGz-qe-QJ0"/>
+                <constraint firstAttribute="bottom" secondItem="61k-qe-NTY" secondAttribute="bottom" id="Hg0-0p-SpP"/>
+                <constraint firstItem="61k-qe-NTY" firstAttribute="trailing" secondItem="i5M-Pr-FkT" secondAttribute="trailing" id="XNj-Rb-hYV"/>
+                <constraint firstItem="RxJ-S3-aJf" firstAttribute="width" secondItem="Po0-HF-YEM" secondAttribute="width" multiplier="0.45" id="d7H-aH-3o9"/>
+                <constraint firstItem="RxJ-S3-aJf" firstAttribute="height" secondItem="Po0-HF-YEM" secondAttribute="height" id="dIj-xJ-CwW"/>
+                <constraint firstItem="1n0-Gj-Qtq" firstAttribute="top" secondItem="Po0-HF-YEM" secondAttribute="bottom" constant="8" id="fzV-5o-eIj"/>
+                <constraint firstItem="Po0-HF-YEM" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="jBK-a2-Q8B"/>
+                <constraint firstItem="RxJ-S3-aJf" firstAttribute="top" secondItem="Po0-HF-YEM" secondAttribute="bottom" constant="8" id="jS6-kk-4e2"/>
+                <constraint firstItem="61k-qe-NTY" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="kRe-YL-iyA"/>
+                <constraint firstItem="61k-qe-NTY" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="mG4-ER-KIK"/>
+                <constraint firstItem="1n0-Gj-Qtq" firstAttribute="height" secondItem="Po0-HF-YEM" secondAttribute="height" id="v7L-Y9-AwL"/>
+                <constraint firstItem="RxJ-S3-aJf" firstAttribute="trailing" secondItem="Po0-HF-YEM" secondAttribute="trailing" id="xx0-fF-Mgz"/>
+                <constraint firstItem="1n0-Gj-Qtq" firstAttribute="leading" secondItem="Po0-HF-YEM" secondAttribute="leading" id="y9z-DU-4gz"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="63.75" y="55.985915492957744"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="loginandregister_facebook" width="16" height="16"/>
+        <image name="loginandregister_select" width="750" height="1334"/>
+    </resources>
+</document>
