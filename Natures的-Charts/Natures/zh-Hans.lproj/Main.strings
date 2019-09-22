@@ -1,0 +1,132 @@
+
+/* Class = "UILabel"; text = "Waiting"; ObjectID = "1R6-u1-6e9"; */
+"1R6-u1-6e9.text" = "Waiting";
+
+/* Class = "UILabel"; text = "Wind Generator Port"; ObjectID = "4ND-CL-mdS"; */
+"4ND-CL-mdS.text" = "Wind Generator Port";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "4Qn-Nz-G1w"; */
+"4Qn-Nz-G1w.title" = "Item";
+
+/* Class = "UILabel"; text = "Temperature"; ObjectID = "59d-N7-ucd"; */
+"59d-N7-ucd.text" = "Temperature";
+
+/* Class = "UILabel"; text = "0 °F"; ObjectID = "5Ot-9O-W37"; */
+"5Ot-9O-W37.text" = "0 °F";
+
+/* Class = "UILabel"; text = "Waiting"; ObjectID = "6SL-Sb-yb6"; */
+"6SL-Sb-yb6.text" = "Waiting";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "ALA-Vj-t3e"; */
+"ALA-Vj-t3e.title" = "Item";
+
+/* Class = "UILabel"; text = "0 WATTS"; ObjectID = "Ccf-iB-7OR"; */
+"Ccf-iB-7OR.text" = "0 WATTS";
+
+/* Class = "UILabel"; text = "Please insert Bluetooth module into the assigned USB port."; ObjectID = "EXD-Xt-XTu"; */
+"EXD-Xt-XTu.text" = "Please insert Bluetooth module into the assigned USB port.";
+
+/* Class = "UILabel"; text = "Output Wattage"; ObjectID = "F0Z-se-dBn"; */
+"F0Z-se-dBn.text" = "Output Wattage";
+
+/* Class = "UILabel"; text = "USB Ports"; ObjectID = "FVY-Xz-xCb"; */
+"FVY-Xz-xCb.text" = "USB Ports";
+
+/* Class = "UILabel"; text = "OUTPUT"; ObjectID = "FW4-2R-ECf"; */
+"FW4-2R-ECf.text" = "OUTPUT";
+
+/* Class = "UILabel"; text = "Waiting"; ObjectID = "Gxm-mn-aBb"; */
+"Gxm-mn-aBb.text" = "Waiting";
+
+/* Class = "UILabel"; text = "Good"; ObjectID = "IPt-gU-7tO"; */
+"IPt-gU-7tO.text" = "Good";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "JEF-xB-JaV"; */
+"JEF-xB-JaV.text" = "Label";
+
+/* Class = "UILabel"; text = "Battery"; ObjectID = "Jav-dh-BK8"; */
+"Jav-dh-BK8.text" = "Battery";
+
+/* Class = "UILabel"; text = "Waiting"; ObjectID = "M1X-SW-VaL"; */
+"M1X-SW-VaL.text" = "Waiting";
+
+/* Class = "UILabel"; text = "Natures Plus"; ObjectID = "Pet-gI-diA"; */
+"Pet-gI-diA.text" = "Natures Plus";
+
+/* Class = "UILabel"; text = "Good"; ObjectID = "Pum-r0-eif"; */
+"Pum-r0-eif.text" = "Good";
+
+/* Class = "UILabel"; text = "Waiting"; ObjectID = "R2e-YA-2BV"; */
+"R2e-YA-2BV.text" = "Waiting";
+
+/* Class = "UILabel"; text = "内容"; ObjectID = "S92-aH-1gT"; */
+"S92-aH-1gT.text" = "内容";
+
+/* Class = "UILabel"; text = "Waiting"; ObjectID = "TPi-Pi-zXo"; */
+"TPi-Pi-zXo.text" = "Waiting";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "VGU-Mj-SCk"; */
+"VGU-Mj-SCk.title" = "Item";
+
+/* Class = "UILabel"; text = "BATTERY"; ObjectID = "VXU-P2-K2r"; */
+"VXU-P2-K2r.text" = "BATTERY";
+
+/* Class = "UILabel"; text = "Solar Panel Port"; ObjectID = "WFd-To-WZ0"; */
+"WFd-To-WZ0.text" = "Solar Panel Port";
+
+/* Class = "UILabel"; text = "MAX"; ObjectID = "XfW-wZ-mig"; */
+"XfW-wZ-mig.text" = "MAX";
+
+/* Class = "UINavigationItem"; title = "SystemTest"; ObjectID = "YwB-Os-Kvs"; */
+"YwB-Os-Kvs.title" = "SystemTest";
+
+/* Class = "UILabel"; text = "Waiting"; ObjectID = "Yww-uV-8gJ"; */
+"Yww-uV-8gJ.text" = "Waiting";
+
+/* Class = "UINavigationItem"; title = "Detail"; ObjectID = "aOh-n6-agu"; */
+"aOh-n6-agu.title" = "Detail";
+
+/* Class = "UILabel"; text = "Good"; ObjectID = "akA-lc-YaR"; */
+"akA-lc-YaR.text" = "Good";
+
+/* Class = "UILabel"; text = "Waiting"; ObjectID = "bZg-6P-Epz"; */
+"bZg-6P-Epz.text" = "Waiting";
+
+/* Class = "UILabel"; text = "Good"; ObjectID = "cFq-iF-WQF"; */
+"cFq-iF-WQF.text" = "Good";
+
+/* Class = "UILabel"; text = "Fuse"; ObjectID = "f3a-cz-Ehr"; */
+"f3a-cz-Ehr.text" = "Fuse";
+
+/* Class = "UILabel"; text = "FULL"; ObjectID = "fSW-tV-vDu"; */
+"fSW-tV-vDu.text" = "FULL";
+
+/* Class = "UILabel"; text = "Internal Temperature"; ObjectID = "hMR-4P-kVe"; */
+"hMR-4P-kVe.text" = "Internal Temperature";
+
+/* Class = "UILabel"; text = "Expansion Port"; ObjectID = "lgM-Di-ZhA"; */
+"lgM-Di-ZhA.text" = "Expansion Port";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "mzm-w3-lgN"; */
+"mzm-w3-lgN.title" = "Item";
+
+/* Class = "UILabel"; text = "Waiting"; ObjectID = "nFb-dR-cYO"; */
+"nFb-dR-cYO.text" = "Waiting";
+
+/* Class = "UILabel"; text = "12V DC Port"; ObjectID = "pY8-i7-abh"; */
+"pY8-i7-abh.text" = "12V DC Port";
+
+/* Class = "UILabel"; text = "Inverter"; ObjectID = "q4w-RQ-ti5"; */
+"q4w-RQ-ti5.text" = "Inverter";
+
+/* Class = "UILabel"; text = "11:33AM 22/07/2019"; ObjectID = "qRH-SH-mMZ"; */
+"qRH-SH-mMZ.text" = "11:33AM 22/07/2019";
+
+/* Class = "UIButton"; normalTitle = "Connect"; ObjectID = "sGl-HQ-sbS"; */
+"sGl-HQ-sbS.normalTitle" = "Connect";
+
+/* Class = "UILabel"; text = "Battery Voltage"; ObjectID = "uE6-dC-yOZ"; */
+"uE6-dC-yOZ.text" = "Battery Voltage";
+
+/* Class = "UILabel"; text = "Good"; ObjectID = "wNF-YQ-h2U"; */
+"wNF-YQ-h2U.text" = "Good";
